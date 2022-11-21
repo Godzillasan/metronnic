@@ -1,0 +1,212 @@
+*{
+    font-weight: 500;
+}
+
+
+.bgside-color {
+    background-color: #181c32;
+}
+
+.sidelogo-border {
+    border-bottom: dotted;
+    border-color: #adadad;
+}
+
+
+.sidenav {
+    overflow: auto;
+    position: fixed; 
+}
+
+.sidenav2 {
+    overflow: auto;
+    position: fixed;
+    margin-left: -15px;
+    z-index: 100;
+}
+
+.header-lg {
+    max-width: 80vw;
+    margin-left: 20%;
+}
+
+.m{
+    margin-left: 80px;
+}
+
+.nav-color {
+    color: #5e6278;
+}
+
+.pp,.jp:hover{
+    border-bottom: #009ef7 2px solid;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination{
+    margin-left: 420px;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+main {
+    margin-left: 20%;
+    max-width: 80vw;
+}
+
+.tick {
+    color: #009ef7;
+}
+
+.box {
+    width: 130px;
+    height: 70px;
+    border: 1px dotted #5e6278;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.svg-color2 {
+    color: #50cd89;
+}
+
+
+
+.bf{
+    position: fixed;
+    top: 60%;
+    transform: rotate(90deg);
+    right: 0;
+}
+
+.gf{
+    right: 0;
+    position: fixed;
+    bottom: 5%;
+    margin-right: 20px;
+}
+
+.fra{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text-color{
+    color: #9d9da6;
+}
+
+.text-color:hover{
+    color: white;
+}
+
+.card2{
+    width: 470px;
+
+}
+.box-2{
+    border: 1px dashed rgb(206, 204, 204);
+    width: 120px;
+    padding: 5px;
+}
+.box {
+    width: 100px;
+    height: 60px;
+    border: 1px dashed rgb(206, 204, 204);
+    text-align: center;
+    
+}
+.Following{
+    background-color: #f1faff;
+    color: #009ef7;
+}
+
+.followers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+@media  screen and (min-width:992px) {
+    .navv {
+        display: none;
+    }
+
+    .progress {
+        width: 220px;
+    }
+
+}
+
+
+@media  screen and (max-width:992px) {
+    .sidenav {
+        display: none;
+    }
+
+    .header-lg {
+        display: none;
+    }
+
+    main {
+        max-width: 100%;
+        margin: 0;
+        width: 100%;
+    }
+
+    .boxes {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .progress {
+        width: 300px;
+    }
+
+    .y{
+        display: none;       
+    }
+
+    
+    .pagination{
+        display: none;
+    }
+    
+
+    .sql{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card2{
+        width: 100%;
+      }  
+    .box{
+        margin: 0;
+    }
+    .boxcover2{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .followers{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
